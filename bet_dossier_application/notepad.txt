@@ -1,6 +1,5 @@
-in this section, i install the bootstrap.
-I remove the boiler template with the  heading
-I also install the router that will enable us to move from one component to another
-create a folder called components and add js file called Home,Admin,Cashier and FundRequest.
-Add content to the components.
-Import all the component to app.js
+create file a variable to store the backend api url
+import it in the component such as admin, cashier etc
+create a constructor that take props as parameter
+inside the constructor call the super method with the props as parameter, then write this.state={cashiers:[]}
+the create table for the cashier
